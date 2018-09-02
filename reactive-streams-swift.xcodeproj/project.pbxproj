@@ -21,24 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A93EDD5B213C5ADD0007E69E /* reactive_streams_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD4F213C5ADC0007E69E /* reactive_streams_swiftTests.swift */; };
-		A93EDD5C213C5ADD0007E69E /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD50213C5ADC0007E69E /* XCTestManifests.swift */; };
-		A93EDD5D213C5ADD0007E69E /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD51213C5ADC0007E69E /* LinuxMain.swift */; };
-		A93EDD5E213C5ADD0007E69E /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD56213C5ADD0007E69E /* Publisher.swift */; };
-		A93EDD5F213C5ADD0007E69E /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD57213C5ADD0007E69E /* Subscriber.swift */; };
-		A93EDD60213C5ADD0007E69E /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD58213C5ADD0007E69E /* Processor.swift */; };
-		A93EDD61213C5ADD0007E69E /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD59213C5ADD0007E69E /* Subscription.swift */; };
-		A93EDD75213C5AF10007E69E /* reactive_streams_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD69213C5AF00007E69E /* reactive_streams_swiftTests.swift */; };
-		A93EDD76213C5AF10007E69E /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD6A213C5AF00007E69E /* XCTestManifests.swift */; };
-		A93EDD77213C5AF10007E69E /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD6B213C5AF00007E69E /* LinuxMain.swift */; };
 		A93EDD78213C5AF10007E69E /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD70213C5AF00007E69E /* Publisher.swift */; };
 		A93EDD79213C5AF10007E69E /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD71213C5AF00007E69E /* Subscriber.swift */; };
 		A93EDD7A213C5AF10007E69E /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD72213C5AF00007E69E /* Processor.swift */; };
 		A93EDD7B213C5AF10007E69E /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD73213C5AF00007E69E /* Subscription.swift */; };
-		OBJ_26 /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Processor.swift */; };
-		OBJ_27 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Publisher.swift */; };
-		OBJ_28 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Subscriber.swift */; };
-		OBJ_29 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Subscription.swift */; };
 		OBJ_36 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_47 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* XCTestManifests.swift */; };
 		OBJ_48 /* reactive_streams_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* reactive_streams_swiftTests.swift */; };
@@ -63,31 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A93EDD4F213C5ADC0007E69E /* reactive_streams_swiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reactive_streams_swiftTests.swift; sourceTree = "<group>"; };
-		A93EDD50213C5ADC0007E69E /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		A93EDD51213C5ADC0007E69E /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
-		A93EDD56213C5ADD0007E69E /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
-		A93EDD57213C5ADD0007E69E /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
-		A93EDD58213C5ADD0007E69E /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
-		A93EDD59213C5ADD0007E69E /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		A93EDD62213C5AF00007E69E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A93EDD63213C5AF00007E69E /* CopyrightWaivers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CopyrightWaivers.txt; sourceTree = "<group>"; };
 		A93EDD64213C5AF00007E69E /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		A93EDD65213C5AF00007E69E /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
 		A93EDD66213C5AF00007E69E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A93EDD69213C5AF00007E69E /* reactive_streams_swiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reactive_streams_swiftTests.swift; sourceTree = "<group>"; };
-		A93EDD6A213C5AF00007E69E /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		A93EDD6B213C5AF00007E69E /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		A93EDD6C213C5AF00007E69E /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		A93EDD70213C5AF00007E69E /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
 		A93EDD71213C5AF00007E69E /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
 		A93EDD72213C5AF00007E69E /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
 		A93EDD73213C5AF00007E69E /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		A93EDD74213C5AF10007E69E /* RELEASE-NOTES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "RELEASE-NOTES.md"; sourceTree = "<group>"; };
-		OBJ_10 /* Processor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
-		OBJ_11 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
-		OBJ_12 /* Subscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
-		OBJ_13 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		OBJ_16 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* reactive_streams_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactive_streams_swiftTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -114,69 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A93EDD4D213C5ADC0007E69E /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD4E213C5ADC0007E69E /* reactive-streams-swiftTests */,
-				A93EDD51213C5ADC0007E69E /* LinuxMain.swift */,
-			);
-			path = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		A93EDD4E213C5ADC0007E69E /* reactive-streams-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD4F213C5ADC0007E69E /* reactive_streams_swiftTests.swift */,
-				A93EDD50213C5ADC0007E69E /* XCTestManifests.swift */,
-			);
-			path = "reactive-streams-swiftTests";
-			sourceTree = "<group>";
-		};
-		A93EDD53213C5ADD0007E69E /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD54213C5ADD0007E69E /* reactive-streams-swift */,
-			);
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		A93EDD54213C5ADD0007E69E /* reactive-streams-swift */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD55213C5ADD0007E69E /* Interfaces */,
-			);
-			path = "reactive-streams-swift";
-			sourceTree = "<group>";
-		};
-		A93EDD55213C5ADD0007E69E /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD56213C5ADD0007E69E /* Publisher.swift */,
-				A93EDD57213C5ADD0007E69E /* Subscriber.swift */,
-				A93EDD58213C5ADD0007E69E /* Processor.swift */,
-				A93EDD59213C5ADD0007E69E /* Subscription.swift */,
-			);
-			path = Interfaces;
-			sourceTree = "<group>";
-		};
-		A93EDD67213C5AF00007E69E /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD68213C5AF00007E69E /* reactive-streams-swiftTests */,
-				A93EDD6B213C5AF00007E69E /* LinuxMain.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		A93EDD68213C5AF00007E69E /* reactive-streams-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				A93EDD69213C5AF00007E69E /* reactive_streams_swiftTests.swift */,
-				A93EDD6A213C5AF00007E69E /* XCTestManifests.swift */,
-			);
-			path = "reactive-streams-swiftTests";
-			sourceTree = "<group>";
-		};
 		A93EDD6D213C5AF00007E69E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,43 +151,11 @@
 				A93EDD66213C5AF00007E69E /* README.md */,
 				A93EDD74213C5AF10007E69E /* RELEASE-NOTES.md */,
 				A93EDD6D213C5AF00007E69E /* Sources */,
-				A93EDD67213C5AF00007E69E /* Tests */,
 				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
 				OBJ_18 /* Products */,
 			);
 			name = "";
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* reactive-streams-swift */,
-			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* reactive-streams-swift */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* Interfaces */,
-			);
-			name = "reactive-streams-swift";
-			path = "Sources/reactive-streams-swift";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_9 /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_10 /* Processor.swift */,
-				A93EDD53213C5ADD0007E69E /* Sources */,
-				A93EDD4D213C5ADC0007E69E /* Tests */,
-				OBJ_11 /* Publisher.swift */,
-				OBJ_12 /* Subscriber.swift */,
-				OBJ_13 /* Subscription.swift */,
-			);
-			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,22 +242,8 @@
 			buildActionMask = 0;
 			files = (
 				A93EDD7A213C5AF10007E69E /* Processor.swift in Sources */,
-				A93EDD5E213C5ADD0007E69E /* Publisher.swift in Sources */,
-				OBJ_26 /* Processor.swift in Sources */,
-				OBJ_27 /* Publisher.swift in Sources */,
-				A93EDD5D213C5ADD0007E69E /* LinuxMain.swift in Sources */,
-				A93EDD75213C5AF10007E69E /* reactive_streams_swiftTests.swift in Sources */,
 				A93EDD7B213C5AF10007E69E /* Subscription.swift in Sources */,
-				A93EDD61213C5ADD0007E69E /* Subscription.swift in Sources */,
-				OBJ_28 /* Subscriber.swift in Sources */,
-				OBJ_29 /* Subscription.swift in Sources */,
-				A93EDD60213C5ADD0007E69E /* Processor.swift in Sources */,
 				A93EDD78213C5AF10007E69E /* Publisher.swift in Sources */,
-				A93EDD77213C5AF10007E69E /* LinuxMain.swift in Sources */,
-				A93EDD5F213C5ADD0007E69E /* Subscriber.swift in Sources */,
-				A93EDD5B213C5ADD0007E69E /* reactive_streams_swiftTests.swift in Sources */,
-				A93EDD5C213C5ADD0007E69E /* XCTestManifests.swift in Sources */,
-				A93EDD76213C5AF10007E69E /* XCTestManifests.swift in Sources */,
 				A93EDD79213C5AF10007E69E /* Subscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
