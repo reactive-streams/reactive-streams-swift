@@ -1,6 +1,26 @@
-# Reactive Streams #
+# Reactive Streams Swift
 
 The purpose of Reactive Streams is to provide a standard for asynchronous stream processing with non-blocking backpressure.
+
+The latest release will always be the master branch on this repo (use SPM to integrate, it pulls from github as a repository source).
+
+To install:
+
+1. Add reactive-streams-swift to your Package.swift:
+```
+Swift 3: .Package(url: "https://github.com/reactive-streams/reactive-streams-swift.git", majorVersion: 1)
+
+Swift 4: .package(url: "https://github.com/reactive-streams/reactive-streams-swift.git", from: "1.0.0")
+```
+
+2. For Swift 4 you also need to add reactive-streams-swift to your target's dependencies.
+
+```
+.target(name: "MyTarget", dependencies: ["reactive-streams-swift"])
+After a swift package update, you can now use reactive-streams-swift:
+```
+
+Extend the given interfaces to create your own Reactive Streams components, use the tck to test that you're in compliance (when its ready).
 
 ## Goals, Design and Scope ##
 
