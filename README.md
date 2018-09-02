@@ -17,10 +17,12 @@ Swift 4: .package(url: "https://github.com/reactive-streams/reactive-streams-swi
 
 ```
 .target(name: "MyTarget", dependencies: ["reactive-streams-swift"])
-After a swift package update, you can now use reactive-streams-swift:
+
 ```
 
-Extend the given interfaces to create your own Reactive Streams components, use the tck to test that you're in compliance (when its ready).
+3. After a `swift package update`, you can now use reactive-streams-swift:
+
+4. Extend the given interfaces to create your own Reactive Streams components, use the tck to test that you're in compliance (when its ready).
 
 ## Goals, Design and Scope ##
 
