@@ -18,3 +18,4 @@ Underwriting parties:
 
 github name    | Real Name, Email Address used for git commits, Company
 ---------------+----------------------------------------------------------------------------
+00benallen       Ben Pinhorn, 00ben.allen@gmail.com             Independant

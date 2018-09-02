@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"reactive-streams-swift::reactive-streams-swiftPackageTests::ProductTarget" /* reactive-streams-swiftPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXAggregateTarget "reactive-streams-swiftPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_41 /* PBXTargetDependency */,
+			);
+			name = "reactive-streams-swiftPackageTests";
+			productName = "reactive-streams-swiftPackageTests";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A93EDD78213C5AF10007E69E /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD70213C5AF00007E69E /* Publisher.swift */; };
+		A93EDD79213C5AF10007E69E /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD71213C5AF00007E69E /* Subscriber.swift */; };
+		A93EDD7A213C5AF10007E69E /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD72213C5AF00007E69E /* Processor.swift */; };
+		A93EDD7B213C5AF10007E69E /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93EDD73213C5AF00007E69E /* Subscription.swift */; };
+		OBJ_36 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_47 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* XCTestManifests.swift */; };
+		OBJ_48 /* reactive_streams_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* reactive_streams_swiftTests.swift */; };
+		OBJ_50 /* reactive_streams_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "reactive-streams-swift::reactive-streams-swift::Product" /* reactive_streams_swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A93EDD46213C59C80007E69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "reactive-streams-swift::reactive-streams-swift";
+			remoteInfo = "reactive-streams-swift";
+		};
+		A93EDD47213C59C80007E69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "reactive-streams-swift::reactive-streams-swiftTests";
+			remoteInfo = "reactive-streams-swiftTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A93EDD62213C5AF00007E69E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A93EDD63213C5AF00007E69E /* CopyrightWaivers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CopyrightWaivers.txt; sourceTree = "<group>"; };
+		A93EDD64213C5AF00007E69E /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		A93EDD65213C5AF00007E69E /* Package.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Package.resolved; sourceTree = "<group>"; };
+		A93EDD66213C5AF00007E69E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A93EDD6C213C5AF00007E69E /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A93EDD70213C5AF00007E69E /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		A93EDD71213C5AF00007E69E /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
+		A93EDD72213C5AF00007E69E /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		A93EDD73213C5AF00007E69E /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		A93EDD74213C5AF10007E69E /* RELEASE-NOTES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "RELEASE-NOTES.md"; sourceTree = "<group>"; };
+		OBJ_16 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* reactive_streams_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reactive_streams_swiftTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"reactive-streams-swift::reactive-streams-swift::Product" /* reactive_streams_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = reactive_streams_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"reactive-streams-swift::reactive-streams-swiftTests::Product" /* reactive_streams_swiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = reactive_streams_swiftTests.xctest; path = "reactive-streams-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_50 /* reactive_streams_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93EDD6D213C5AF00007E69E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A93EDD6E213C5AF00007E69E /* reactive-streams-swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A93EDD6E213C5AF00007E69E /* reactive-streams-swift */ = {
+			isa = PBXGroup;
+			children = (
+				A93EDD6F213C5AF00007E69E /* Interfaces */,
+			);
+			path = "reactive-streams-swift";
+			sourceTree = "<group>";
+		};
+		A93EDD6F213C5AF00007E69E /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A93EDD70213C5AF00007E69E /* Publisher.swift */,
+				A93EDD71213C5AF00007E69E /* Subscriber.swift */,
+				A93EDD72213C5AF00007E69E /* Processor.swift */,
+				A93EDD73213C5AF00007E69E /* Subscription.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_15 /* reactive-streams-swiftTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* reactive-streams-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* XCTestManifests.swift */,
+				OBJ_17 /* reactive_streams_swiftTests.swift */,
+			);
+			name = "reactive-streams-swiftTests";
+			path = "Tests/reactive-streams-swiftTests";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"reactive-streams-swift::reactive-streams-swiftTests::Product" /* reactive_streams_swiftTests.xctest */,
+				"reactive-streams-swift::reactive-streams-swift::Product" /* reactive_streams_swift.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				A93EDD64213C5AF00007E69E /* CONTRIBUTING.md */,
+				A93EDD6C213C5AF00007E69E /* COPYING */,
+				A93EDD63213C5AF00007E69E /* CopyrightWaivers.txt */,
+				A93EDD62213C5AF00007E69E /* LICENSE */,
+				A93EDD65213C5AF00007E69E /* Package.resolved */,
+				A93EDD66213C5AF00007E69E /* README.md */,
+				A93EDD74213C5AF10007E69E /* RELEASE-NOTES.md */,
+				A93EDD6D213C5AF00007E69E /* Sources */,
+				OBJ_6 /* Package.swift */,
+				OBJ_14 /* Tests */,
+				OBJ_18 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"reactive-streams-swift::SwiftPMPackageDescription" /* reactive-streams-swiftPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "reactive-streams-swiftPackageDescription" */;
+			buildPhases = (
+				OBJ_35 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "reactive-streams-swiftPackageDescription";
+			productName = "reactive-streams-swiftPackageDescription";
+			productType = "com.apple.product-type.framework";
+		};
+		"reactive-streams-swift::reactive-streams-swift" /* reactive-streams-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_22 /* Build configuration list for PBXNativeTarget "reactive-streams-swift" */;
+			buildPhases = (
+				OBJ_25 /* Sources */,
+				OBJ_30 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "reactive-streams-swift";
+			productName = reactive_streams_swift;
+			productReference = "reactive-streams-swift::reactive-streams-swift::Product" /* reactive_streams_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"reactive-streams-swift::reactive-streams-swiftTests" /* reactive-streams-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "reactive-streams-swiftTests" */;
+			buildPhases = (
+				OBJ_46 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_51 /* PBXTargetDependency */,
+			);
+			name = "reactive-streams-swiftTests";
+			productName = reactive_streams_swiftTests;
+			productReference = "reactive-streams-swift::reactive-streams-swiftTests::Product" /* reactive_streams_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "reactive-streams-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"reactive-streams-swift::reactive-streams-swift" /* reactive-streams-swift */,
+				"reactive-streams-swift::SwiftPMPackageDescription" /* reactive-streams-swiftPackageDescription */,
+				"reactive-streams-swift::reactive-streams-swiftPackageTests::ProductTarget" /* reactive-streams-swiftPackageTests */,
+				"reactive-streams-swift::reactive-streams-swiftTests" /* reactive-streams-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				A93EDD7A213C5AF10007E69E /* Processor.swift in Sources */,
+				A93EDD7B213C5AF10007E69E /* Subscription.swift in Sources */,
+				A93EDD78213C5AF10007E69E /* Publisher.swift in Sources */,
+				A93EDD79213C5AF10007E69E /* Subscriber.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_36 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_47 /* XCTestManifests.swift in Sources */,
+				OBJ_48 /* reactive_streams_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "reactive-streams-swift::reactive-streams-swiftTests" /* reactive-streams-swiftTests */;
+			targetProxy = A93EDD47213C59C80007E69E /* PBXContainerItemProxy */;
+		};
+		OBJ_51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "reactive-streams-swift::reactive-streams-swift" /* reactive-streams-swift */;
+			targetProxy = A93EDD46213C59C80007E69E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "reactive-streams-swift.xcodeproj/reactive_streams_swift_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "reactive-streams-swift";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = "reactive-streams-swift";
+			};
+			name = Debug;
+		};
+		OBJ_24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "reactive-streams-swift.xcodeproj/reactive_streams_swift_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "reactive-streams-swift";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = "reactive-streams-swift";
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "reactive-streams-swift.xcodeproj/reactive_streams_swiftTests_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = "reactive-streams-swiftTests";
+			};
+			name = Debug;
+		};
+		OBJ_45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "reactive-streams-swift.xcodeproj/reactive_streams_swiftTests_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = "reactive-streams-swiftTests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "reactive-streams-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_22 /* Build configuration list for PBXNativeTarget "reactive-streams-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_23 /* Debug */,
+				OBJ_24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_32 /* Build configuration list for PBXNativeTarget "reactive-streams-swiftPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_38 /* Build configuration list for PBXAggregateTarget "reactive-streams-swiftPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_43 /* Build configuration list for PBXNativeTarget "reactive-streams-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_44 /* Debug */,
+				OBJ_45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
